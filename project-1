@@ -1,0 +1,9 @@
+let unusualAnimal = "giraffe";
+let isHungry = true;
+let numVisitors = 10;
+let favoriteColor = "purple";
+let isTall = true;
+
+let story = "Yesterday, I took my pet " + unusualAnimal + " to the zoo. As soon as we got there, " + (isHungry ? "my " + unusualAnimal + " started munching on leaves from the trees" : "my " + unusualAnimal + " looked around in amazement") + ". We walked around the zoo and saw " + numVisitors + " visitors enjoying the animals. My " + unusualAnimal + " loved the " + (isTall ? "giraffes, because they were tall like it" : "monkeys, because they were playful") + ". After the zoo, we went to the park and played fetch. My " + unusualAnimal + " loves to play, especially with " + favoriteColor + " balls. We had so much fun that we were exhausted by the end of the day. When we got home, my " + unusualAnimal + " took a long nap, and dreamt of all the fun we had. The end.";
+
+console.log(story);
